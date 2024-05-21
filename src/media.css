@@ -1,0 +1,139 @@
+@media screen and (min-width:1200px) and (max-width:1535px) {
+    .ukhealthcare {
+        font-size: 35px;
+    }
+    .searchIcon {
+        left: 223px;
+    }
+}
+@media screen and (min-width:900px) and (max-width:1199px) {
+    .ukhealthcare {
+        font-size: 27px;
+    }
+    .forgetEmailHeading {
+        font-size: 32px !important;
+    }
+    .inputContainer {
+        width: 34%;
+    }
+    .searchIcon {
+        left: 217px;
+    }
+
+}
+@media screen and (min-width:600px) and (max-width:899px) {
+    .ukhealthcare {
+        font-size: 20px;
+    }
+    .inputContainer {
+        width: 55%;
+    }
+    .searchIcon {
+        left: 227px;
+    }
+    .signUpGrid{
+      background-color: black;
+    }
+    .ukhealthcare {
+      display: none;
+    }
+}
+@media screen and (min-width:320px) and (max-width:599px) {
+   
+    .gridItem1Xs{
+        padding-left: 22px; 
+        padding-top: 18px;
+      }
+    .signUpBottomBoxOverRide{
+      flex-direction: row!important;
+    padding-left: 0px!important;
+    }
+    .inviteAdminBtn{
+      width: 62%;
+    }
+    .xsAdminHeading{
+      padding-left: 0px!important; ;
+    }
+    #adminSeachFeildContainer{
+      padding-top: 24px;
+    }
+    
+    #coustomPage ul{
+      justify-content:inherit; 
+      padding: 0px;
+    }
+    .paperOverView {
+      width: 99%;
+    }
+      .Notification {
+        font-size: 27px !important;
+      }
+      #drawerMain {
+        padding-left: 18px;
+      }
+      .menuText{
+        font-size: 13px!important;
+      }
+      .xsForm{
+        text-align: center;
+      }
+      .content {
+        width: auto;
+      }
+      .listContainer {
+        flex-direction: column;
+      }
+      ul li {
+        margin: 6px 10px;
+        font-size: 16px;
+      }
+      .ukhealthcare {
+        display: none;
+      }
+      .mulit3dAccountContainer {
+        padding: 50px 0px;
+        text-align: center;
+      }
+      .checkBox{
+        margin-left: 12px;
+        margin-top: 12px;
+      }
+      .signUpBottomBox {
+        flex-direction: column;
+        padding-left: 22px;
+      }
+      #drawerMain{
+        width: 100%;
+      }
+      .sideBarNav {
+        justify-content: space-around;
+      }
+      .SearchFieldContainer {
+        flex-direction: column;
+    }
+    .inputContainer {
+        width: 100%;
+    }
+    .basicMenuContainer {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 12px;
+      }
+      .searchIcon {
+        left: 236px;
+      }
+      .forgetEmailHeading {
+        font-size: 21px !important
+      }
+      .signUpContainer {
+        height: auto;
+        background-image: none;
+        background-color: #020E1F;
+      }
+      .ForgetEmailSubContainer {
+        width: auto;
+        padding: 5px;
+      }
+        
+    
+}

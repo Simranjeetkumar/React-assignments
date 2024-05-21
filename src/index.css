@@ -1,0 +1,639 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* heigth issue check drawerMain id of main */
+.signUpContainer{
+  position: relative;
+}
+.error_div{
+  text-align: start;
+  padding: 0 43px 5px;
+  color: red;
+  font-size: 21px;
+  font-weight: 700;
+}
+.loginBgImg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.signUpGrid{
+  color: white;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.gridBtn{
+  width: 85%;
+  margin: 15px 0px;
+  padding: 0px  12px!important;
+  height: 6vh;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+.bgForSubmit{
+  background-color: #81CEF8!important;
+  color: black!important;
+  font-weight: 700!important;
+}
+.gridBtnWidthOverRide{
+  width: 85%;
+  height: 6vh;
+}
+.signUpHeading{
+  font-size: 40px;
+}
+/* .css-i4bv87-MuiSvgIcon-root{
+  background-color: white;
+} */
+.signUpBottomBox{
+  display: flex;
+  justify-content: space-between;
+}
+.menuBtn{
+  text-transform: none!important;
+}
+.needHelp{
+  padding: 12px 0px;
+}
+.needHelp a,.email,.navLink{
+  text-decoration: none;
+  color: #81CEF8!important;
+}
+.dontMulti3dAccount{
+  text-align: center!important;
+}
+.mulit3dAccountContainer{
+  padding: 30px 0px;
+}
+.css-ryrseu-MuiRating-root, .css-1c99szj-MuiRating-icon {
+  color: #81CEF8 !important;
+  font-size: 16px !important;
+}
+.accountBtn1{
+  color: white!important;
+}
+.content{
+  font-size: 13px;
+  width: 84%;
+}
+.listContainer{
+  display: flex;
+  margin-top: 10px;
+}
+ul li{
+  list-style: none;
+  /* margin: 0px 10px; */
+  font-size: 13px;
+}
+.listItems li{
+  margin: 0px 10px;
+}
+.marginLi{
+    margin: 0px 25px!important;
+}
+.ukhealthcare{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.ForgetEmailContainer{
+  display: flex;
+  color: white;
+  height: 75vh;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer{
+  background-color: #020E1F;
+}
+.ForgetEmailSubContainer{
+  width: 30%;
+  text-align: center;
+}
+#drawerMain{
+  padding-left: 60px;
+  height: 320vh;
+}
+.forgetEmailHeading{
+  font-size: 35px!important;
+  font-weight: 700!important;
+}
+.Title{
+  padding-top: 12px;
+}
+.itemsBox{
+  justify-content: space-around;
+}
+.color{
+  background-color: red!important;
+}
+
+.toolBar{
+  padding: 0px 193px;
+}
+.header{
+  background-color: #19252f!important;
+}
+.logo{
+  width: 14%;
+}
+#submitBtn{
+margin-top: 25px;
+}
+.beforeBtnContent{
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 20px;
+}
+.Notification,.AppBar,.sideContentPaper,.pharmaNav{
+  background-color: #0D203A!important;
+}
+.Notification{
+  margin-right: 12px;
+  color: white;
+  font-size: 33px!important;
+}
+.sideBarNav{
+  justify-content: end;
+}
+.DrawerItem:hover {
+  background: #010E1F!important;
+  color: #81CEF8!important;
+}
+.UserItem span{
+  font-size: 18px!important;
+}
+
+.DrawerContent{
+  background: #010E1F!important;
+  color: #FFFFFF!important;
+}
+#coustomPage ul li button{
+  color:white ;
+}
+#coustomPage ul li button span{
+  background-color: white;
+  opacity: 0.4;
+}
+#coustomPage ul{
+  justify-content: center;
+  padding: 20px;
+}
+.SelectLabel{
+   color: #FFFFFF!important;
+}
+.SelectForm{
+  border: 1px solid white;
+}
+.SearchFieldContainer{
+  display: flex;
+}
+.inputForSearch{
+  width: 100%;
+  height: 55px;
+  background-color: #010E1F;
+  color: white;
+  padding: 0px 25px;
+}
+.inputContainer {
+    width: 25%;
+    position: relative;
+}
+.searchIcon{
+  position: absolute;
+  left: 258px;
+  top: 12px;
+}
+.basicMenuContainer{
+  width: 20%;
+  margin-left: 20px;
+}
+.TableHead,.hcpTable{
+  background-color: #0D203A!important;
+}
+.verified{
+  color: green;
+}
+.ThColor,th span,th,td,.table2Page,.MuiTableSortLabel-icon {
+  color: #FFFFFF!important;
+  border-bottom: 2px solid #22323e!important;
+}
+.inputFeild{
+  border: 2px solid #22323e!important;
+}
+.overViewHeight{
+  height: 100vh;
+}
+.formik2field{
+  width: 100%;
+}
+.formik2Btn{
+  text-align:end
+}
+.formik2BtnMargin{
+  margin-right: 10px!important;
+}
+.tableIconBox{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.fontSize{
+  font-size: 30px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.gridContainer{
+  padding: 0px 20px;
+}
+.active {
+  background: #010E1F;
+  color: #81CEF8!important;
+}
+.navLink{
+  width: 100%;
+}
+.cardBtnBox{
+  width: 97%;
+  padding: 15px!important;
+}
+.paperOverView{
+  width: 90%;
+  padding: 20px;
+
+}
+.activePaper{
+  display: flex;
+  align-items: center;
+}
+.ColorGreen{
+  color: #4EB55F;
+}
+.ColorAqua{
+  color: #81CEF8!important;
+}
+.ColorRed{
+  color: #EB4C39!important;
+}
+.paperIcon{
+  font-size: 53px;
+}
+.countLogoSize{
+  font-size: 40px!important;
+}
+.mLogo{
+  width: 155px;
+}
+.signupLogo{
+  padding: 40px 0px;
+}
+.formGridItem{
+  padding: 0px 41px;
+}
+.forgetPassword{
+  padding: 35px;
+}
+.largePaddingBottom{
+  padding-bottom: 250px;
+}
+.mediaImg{
+  width: 75%!important;
+  margin: auto;
+}
+.card1{
+background-color: #19252F!important;
+width: 39%;
+padding: 12px 5px;
+border: 1px solid #5A5A5A;
+transform: scale(0.8);
+translate: -18px;
+}
+.cardHeading{
+  font-size: 16px;
+  font-weight: 700;
+}
+.fontWeight{
+  font-weight: 700!important;
+}
+.cardText{
+  padding: 5px 10px;
+}
+.ChooseAction{
+  margin-bottom: 170px;
+}
+.card2{
+  opacity: 0.5;
+  translate: -18px;
+}
+.PaddingForNoContent{
+  padding: 250px;
+}
+.card2:hover{
+  transform: scale(0.9);
+  transition: 0.2s linear;
+}
+
+.card1Hover:hover{
+  transform: scale(0.9);
+  transition: 0.2s linear;
+}
+.navImg{
+  padding: 0px 50px;
+}
+.navItem{
+  margin-left: 20px!important;
+}
+.menuText{
+  font-size: 16px;
+  color: #FFFFFF!important;
+}
+.SlickSlides{
+  width: 90%;
+  margin: auto;
+}
+.slick-prev, .slick-next,.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+  color: black;
+  font-size: 40px!important;
+}
+.CarouselList li{
+  font-size: 14px;
+  list-style: none;
+  margin: 0px;
+}
+.SlickCards{
+  background-color: #010E1F!important;
+  padding: 22px 0px;
+}
+.marginBottom{
+  margin-bottom: 0!important;
+}
+.cardItems{
+  margin-top: 30px!important;
+}
+.listBtn{
+  border-radius: 50px!important;
+  font-size: 12px!important;
+}
+.replyIcon{
+  transform: rotate(172deg);
+  font-size: 30px;
+}
+.colorsGolden{
+  color: #FFD700;
+}
+.paddingClass{
+  padding: 10px;
+}
+.transformCard{
+  transform: scale(0.9);
+}
+.transformCard:hover{
+  transform: scale(1.1);
+  transition: 0.5s linear;
+}
+#basicSelectDisplay{
+  display: none;
+}
+.delOpacity{
+  opacity: 0.8;
+}
+#delContent{
+  color: red!important;
+}
+.contentPageLink{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.contentPageSubHeading{
+ font-size: 22px!important;
+}
+.FeildBackground{
+ background-color: #19252f;
+}
+.mlUser{
+  margin-left: 5px;
+}
+.zeroMargin{
+  margin: 0px!important;
+}
+.descriptionBox{
+  height: 7vh;
+  padding: 12px!important;
+}
+.descriptionBox2{
+  height: 11vh;
+  padding: 12px!important;
+}
+.formPaper{
+padding: 25px;
+color: white!important;
+background: #010e1f!important;
+
+}
+.parentPaper{
+  background: #010e1f!important;
+  /* border: 1px solid white; */
+}
+.marginForForm{
+  margin-top: 19px!important;
+}
+.widthUser{
+  width: 45%;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+/* mui steppers */
+.css-117w1su-MuiStepIcon-text {
+  display: none !important;
+}
+.css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root {
+  font-size: 1.5rem !important;
+  color: transparent !important;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.css-1hv8oq8-MuiStepLabel-label {
+  color: #FFFFFF !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+}
+.css-vnkopk-MuiStepLabel-iconContainer .Mui-active{
+  background: #81CEF8 !important;
+}
+.reactDopZone{
+    padding: 15px 116px;
+    border: 1px solid #fff;
+    background: #19252f;
+    border-radius: 16px;
+    margin-top: 12px;
+}
+.responsiveWidth{
+ width: 100%;
+ height: 90%;
+}
+.cloudIcon{
+  font-size: 60px!important;
+  background: #19252f;
+  color: #FFFFFF!important;
+}
+.paperBorder{
+  border: none!important;
+}
+.uploadFileBtnBox{
+  padding: 12px 80px;
+}
+.uploadFileBtn{
+  padding: 12px 54px!important;
+  font-size: 20px!important;
+}
+.pdfName{
+  font-size: 13px!important;
+  margin-top: 115px!important;
+  font-weight: 500!important;
+  color: #4EB55F;
+}
+.facultDes{
+  margin-top: 12px!important;
+}
+.facultDes1{
+  width: 90%;
+  height: 13vh;
+  background: #19252f;
+  color: #FFFFFF!important;
+  padding: 15px;
+  font-size: 16px;
+}
+.facultyPaper{
+  height: 23%;
+  padding: 15px;
+  background: #010e1f!important;
+  color: #FFFFFF!important;
+  /* border: 1px solid #FFFF; */
+}
+.facultyBtn{
+  text-align: end;
+  padding: 12px 75px;
+}
+.iconBackground{
+  background: none!important;
+}
+.promotionalLabel{
+  font-weight: 700!important;
+  font-size: 27px !important;
+}
+.declarationInv{
+  border: 1px solid;
+  border-radius: 12px;
+  padding: 6px;
+  margin-left: 10px!important;
+}
+.singleContentTitle{
+  font-weight: 700!important;
+  font-size: 30px!important;
+}
+.hr{
+  width: 14%;
+}
+.prepareDate li{
+  margin: 0px!important;
+  font-size: 22px;
+}
+.watchNowBtn{
+  background-color: white!important;
+color: black!important; 
+}
+.prescribeBtn{
+  background: #19252f!important;
+  color: #FFFFFF!important;
+  border: 1px solid white!important;
+}
+.ReportingBtn{
+  background-color: #f7e000!important;
+color: black!important; 
+}
+.companyDataBox{
+  padding: 35px 74px;
+}
+.crossIcon{
+  position: absolute;
+  right: 43px;
+  font-size: 35px!important;
+  top: 15px
+}
+.css-m9glnp-MuiPaper-root-MuiDialog-paper {
+  text-align: center;
+  background: black!important;
+  color: white!important;
+}
+.imgGridItem{
+  padding: 117px 0px;
+}
+.imgGridBtn{
+  transform: scale(1.2);
+}
+.facultyForm{
+  padding-bottom: 500px;
+}
+#Email,#Action{
+  padding-right: 67px;
+}
+.videoIcon{
+  position: absolute;
+  top: 22px;
+  right: 5px;
+  font-size: 35px!important;
+}
+.zoominIcon{
+  position: absolute;
+  top: 90px;
+  left: 145px;
+  cursor: pointer;
+  font-size: 45px!important;
+}
+.playIconSpan{
+  position: absolute;
+  background: black;
+  padding: 10px;
+  right: 392px;
+  border-radius: 50%;
+  text-align: center;
+  top: 290px;
+  cursor: pointer;
+}
+.playIcon{
+  font-size: 67px!important;
+}
+.DrawerItem:hover .hoverIcon{
+  background: #81CEF8!important;
+  border-radius: 20px;
+  color: black;
+  padding: 2px
+}
+.active .hoverIcon{
+  background: #81CEF8!important;
+  border-radius: 20px;
+  color: black;
+  padding: 2px
+}
+.details{
+  position: absolute;
+  left: 35px;
+  top: -237px;
+}
+.MenuBox{
+  position: relative;
+}
+.contentDel{
+  translate: -14px;
+}
+ /* props inside another is not exact value it provide object with that value */
